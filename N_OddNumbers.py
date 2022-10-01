@@ -1,7 +1,7 @@
 """
 PROBLEM STATEMENT
 
-Read N from input and print the first N odd numbers
+Read n from input and print the first N odd numbers
 
 Sample Input 0
 
@@ -16,10 +16,6 @@ Sample Output 0
 
 #SOLUTION
 
-N = int(input())
-i = 0
-current = 1
-while(i<N):
-    print(current)
-    current+=2
-    i+=1
+n = int(input("Enter the range: "))
+for i in range(1,n+1,2):
+    print(i)
